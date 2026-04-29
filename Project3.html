@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <form action="post" class="container">
+      <div class="box1">
+         <label for="username">Username </label>
+         <input type="text" id="username" name="username" placeholder="Enter your username"><br><br>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>      
+      </div>  
+      <div>
+        <section><u><strong>GENDER</strong></u></section>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female"><br><br>
+      </div>
+      <div>
+        <section><u><strong>SKILL</strong></u></section>
+            <input type="checkbox" id="html" name="skill" value="HTML">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="css" name="skill" value="CSS">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="sql" name="skill" value="SQL">
+            <label for="sql">SQL</label>
+            <input type="checkbox" id="python" name="skill" value="Python">
+            <label for="python">Python</label>
+            <input type="checkbox" id="c++" name="skill" value="C++">
+            <label for="c++">C++</label>
+            <input type="checkbox" id="c" name="skill" value="C">
+            <label for="c">C</label><br><br>
+      </div>
+      <div>
+        <section><u><strong>CITY</strong></u></section>
+        <select name="city">
+            <option value="Darbhanga">Darbhanga</option>
+            <option value="Madhubani">Madhubani</option>
+            <option value="Patna">Patna</option>
+            <option value="Sitapur">Sitapur</option>
+            
+        </select>
+      </div>
+      <div>
+        <label for="feedback">Feedback</label>
+        <textarea id="feedback" name="feedback" rows="5" cols="10"></textarea><br><br>
+      </div>
+      <div>
+        <button type="submit">Submit</button>   
+      </div>
+     
+      
+    </form>
+</body>
+</html>
